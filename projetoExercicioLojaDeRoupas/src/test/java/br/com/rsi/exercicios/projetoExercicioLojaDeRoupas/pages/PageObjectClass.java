@@ -63,7 +63,15 @@ public class PageObjectClass extends PageObject{
 	
 	@FindBy(xpath = "//article[@role='alert']")
 	private WebElement lblMsgAlteracaoDados;
-		
+			
+	//CT03 - Colocar um Produto no Carrinho buscando via barra de busca
+	@FindBy(xpath = "//input[@name='s']")
+	private WebElement txtPesquisa;
+	
+	@FindBy(xpath = "//i[@class='material-icons search']/preceding::button[position()=2]")//poderiamos substituir o 'position()=2' por apenas '2'
+	private WebElement btnPesquisar;
+	
+	
 	public WebElement getLinkEntrar() {
 		return linkEntrar;
 	}
