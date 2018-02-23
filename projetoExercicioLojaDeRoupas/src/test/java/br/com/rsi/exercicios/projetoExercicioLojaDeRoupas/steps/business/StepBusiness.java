@@ -118,4 +118,59 @@ public class StepBusiness {
 		assertTrue(page.getLblMsgAlteracaoDados().getText().contains(msg));
 	}
 	
+	//CT03 - Colocar um Produto no Carrinho buscando via barra de busca
+	public void preencherCampoPesquisa(String pesquisa) {
+		viewElement.sendText(page.getTxtPesquisa(), pesquisa);
+	}
+	
+	public void clicarBtnPesquisar() {
+		viewElement.click(page.getBtnPesquisar());
+	}
+	
+	public void clicarLinkProduto(String produto) {
+		for(WebElement l : page.getListaLinksProdutos()) 
+		{
+			LOG.info("PRODUTO: " + l.getText());
+			viewElement.mouseOver(l);
+			
+			if(l.getText().contains(produto)) {
+				l.click();
+				break;
+			}	
+		}
+	}
+
+	public void selecionarDdlTamanho(String tamanho) {
+		viewElement.waitForElementIsPresent(10, page.getDdlTamanho());
+		viewElement.selectByVisibleText(page.getDdlTamanho(), tamanho);
+	}
+
+	public void selecionarCorProduto(String cor) {
+		for(WebElement l : page.getListaRdbCoresProduto())
+		{	
+			LOG.info("COR: " + l.getText());
+			if(l.getText().contains(cor)) {
+				l.click();
+				break;
+			}
+		}
+	}
+	
+	public void preencherCampoQuantidade(String qtd) {
+		viewElement.clear(page.getTxtQuantidade());
+		viewElement.sendText(page.getTxtQuantidade(), qtd);
+	}
+	
+	public void clicarBtnAdicionar() {
+		viewElement.click(page.getBtnAdicionar());
+	}
+	
+	public void verificarProdutoAdicionadoAoCarrinho() {
+	    viewElement.waitForElementIsPresent(10, page.getLblMsgProdutoAdicionado());
+		assertTrue(page.getLblMsgProdutoAdicionado().isDisplayed());
+	}
+	
+	
+	
+
 }

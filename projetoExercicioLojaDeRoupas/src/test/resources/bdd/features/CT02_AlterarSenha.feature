@@ -4,16 +4,16 @@ Feature: CT02 - Alterar senha do usuario
 Scenario Outline: Alterar senha
   Given estou na pagina inicial do site "<url>"
   When clico no link 'Entrar'
-  And preencho o campo 'E-mail' "<email>" "<modoOperacao>"
-  And preencho o campo 'Senha' "<senha>"
-  And clico no botao 'Entrar'
-  And clico no 'link especifico' de opcoes da conta "<linkOpcoesConta>"
-  And preencho o campo 'Senha' "<senha>"
-  And clico no botao 'Mostrar'
-  And preencho o campo 'Nova Senha' "<senha>"
-  And clico no botao 'Mostrar'
-  And clico no botao 'Salvar'
- Then verificar alteracao dos dados "<msg>"
+   And preencho o campo 'E-mail' "<email>" "<modoOperacao>"
+   And preencho o campo 'Senha' "<senha>"
+   And clico no botao 'Entrar'
+   And clico no 'link especifico' de opcoes da conta "<linkOpcoesConta>"
+   And preencho o campo 'Senha' "<senha>"
+   And clico no botao 'Mostrar'
+   And preencho o campo 'Nova Senha' "<senha>"
+   And clico no botao 'Mostrar'
+   And clico no botao 'Salvar'
+  Then verificar alteracao dos dados "<msg>"
  
 
 Examples:

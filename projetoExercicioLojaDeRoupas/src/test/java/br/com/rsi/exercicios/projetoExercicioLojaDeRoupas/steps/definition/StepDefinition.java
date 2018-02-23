@@ -107,4 +107,45 @@ public class StepDefinition {
 	public void verificar_alteracao_dos_dados(String msg) throws Throwable {
 	    stepB.verificarAlteracaoDados(msg);
 	}
+	
+	//CT03 - Colocar um Produto no Carrinho buscando via barra de busca
+	@When("^preencho o campo 'Pesquisar' \"([^\"]*)\"$")
+	public void preencho_o_campo_Pesquisar(String pesquisa) throws Throwable {
+	    stepB.preencherCampoPesquisa(pesquisa);
+	}
+
+	@When("^clico no botao 'Pesquisar'$")
+	public void clico_no_botao_Pesquisar() throws Throwable {
+	    stepB.clicarBtnPesquisar();
+	}
+
+	@When("^clico no link do produto \"([^\"]*)\"$")
+	public void clico_no_link_do_produto(String produto) throws Throwable {
+	    stepB.clicarLinkProduto(produto);
+	}
+	
+	@When("^seleciono o ddl 'Tamanho' \"([^\"]*)\"$")
+	public void seleciono_o_ddl_Tamanho(String tamanho) throws Throwable {
+	    stepB.selecionarDdlTamanho(tamanho);
+	}
+
+	@When("^seleciono o rdb 'Cor' do produto \"([^\"]*)\"$")
+	public void seleciono_o_rdb_Cor_do_produto(String cor) throws Throwable {
+	    stepB.selecionarCorProduto(cor);
+	}
+
+	@When("^preencho o campo 'Quantidade' \"([^\"]*)\"$")
+	public void preencho_o_campo_Quantidade(String qtd) throws Throwable {
+	    stepB.preencherCampoQuantidade(qtd);
+	}
+
+	@When("^clico no botao 'Adicionar'$")
+	public void clico_no_botao_Adicionar() throws Throwable {
+	    stepB.clicarBtnAdicionar();
+	}
+
+	@Then("^verifico se o produto foi adicionado$")
+	public void verifico_se_o_produto_foi_adicionado() throws Throwable {
+	    stepB.verificarProdutoAdicionadoAoCarrinho();
+	}
 }

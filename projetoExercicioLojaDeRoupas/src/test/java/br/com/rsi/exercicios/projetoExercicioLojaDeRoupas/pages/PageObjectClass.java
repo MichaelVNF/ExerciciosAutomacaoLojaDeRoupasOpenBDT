@@ -58,20 +58,34 @@ public class PageObjectClass extends PageObject{
 	@FindBy(name = "new_password")
 	private WebElement txtNovaSenha;
 	
-	@FindBy(xpath = "//button[@data-text-show='Mostrar']//following::button[@data-text-show='Mostrar']")
-	private WebElement btnMostrarNovaSenha;
-	
 	@FindBy(xpath = "//article[@role='alert']")
 	private WebElement lblMsgAlteracaoDados;
 			
 	//CT03 - Colocar um Produto no Carrinho buscando via barra de busca
-	@FindBy(xpath = "//input[@name='s']")
+	@FindBy(name = "s")
 	private WebElement txtPesquisa;
 	
-	@FindBy(xpath = "//i[@class='material-icons search']/preceding::button[position()=2]")//poderiamos substituir o 'position()=2' por apenas '2'
+	@FindBy(xpath = "//span[@class='hidden-xl-down']//preceding::i[@class='material-icons search']")
 	private WebElement btnPesquisar;
 	
+	@FindBy(xpath = "//h1[@class='h3 product-title']")
+	private List<WebElement> listaLinksProdutos; 
 	
+	@FindBy(id = "group_1")
+	private WebElement ddlTamanho;
+	
+	@FindBy(xpath = "//input[@class='input-color']//ancestor::label")
+	private List<WebElement> listaRdbCoresProduto; 
+	
+	@FindBy(id = "quantity_wanted")
+	private WebElement txtQuantidade;
+	
+	@FindBy(xpath = "//button[@data-button-action='add-to-cart']")
+	private WebElement btnAdicionar;
+	
+	@FindBy(id = "myModalLabel")
+	private WebElement lblMsgProdutoAdicionado;
+			
 	public WebElement getLinkEntrar() {
 		return linkEntrar;
 	}
@@ -136,13 +150,42 @@ public class PageObjectClass extends PageObject{
 		return txtNovaSenha;
 	}
 
-	public WebElement getBtnMostrarNovaSenha() {
-		return btnMostrarNovaSenha;
-	}
-
 	public WebElement getLblMsgAlteracaoDados() {
 		return lblMsgAlteracaoDados;
 	}
+
+	public WebElement getTxtPesquisa() {
+		return txtPesquisa;
+	}
+
+	public WebElement getBtnPesquisar() {
+		return btnPesquisar;
+	}
+
+	public List<WebElement> getListaLinksProdutos() {
+		return listaLinksProdutos;
+	}
+
+	public WebElement getDdlTamanho() {
+		return ddlTamanho;
+	}
+
+	public List<WebElement> getListaRdbCoresProduto() {
+		return listaRdbCoresProduto;
+	}
+
+	public WebElement getTxtQuantidade() {
+		return txtQuantidade;
+	}
+
+	public WebElement getBtnAdicionar() {
+		return btnAdicionar;
+	}
+
+	public WebElement getLblMsgProdutoAdicionado() {
+		return lblMsgProdutoAdicionado;
+	}
+	
 	
 	
 	
