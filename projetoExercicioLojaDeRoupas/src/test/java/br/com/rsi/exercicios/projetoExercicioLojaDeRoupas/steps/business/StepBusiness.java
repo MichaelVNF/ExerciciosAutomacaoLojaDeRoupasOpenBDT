@@ -148,7 +148,7 @@ public class StepBusiness {
 	public void selecionarCorProduto(String cor) {
 		for(WebElement l : page.getListaRdbCoresProduto())
 		{	
-			LOG.info("COR: " + l.getText());
+			LOG.info("COR PRODUTO: " + l.getText());
 			if(l.getText().contains(cor)) {
 				l.click();
 				break;
@@ -170,7 +170,49 @@ public class StepBusiness {
 		assertTrue(page.getLblMsgProdutoAdicionado().isDisplayed());
 	}
 	
+	//CT04 - Clicar em Todos os produtos, filtrar pela cor  e adiciona-lo
+	public void clicarLinkTodosOsProdutos() {
+		viewElement.waitForElementIsPresent(10, page.getLinkTodosOsProdutos());
+		viewElement.click(page.getLinkTodosOsProdutos());
+	}
 	
+	public void clicarLinkCorProduto(String cor) {
+		viewElement.waitForElementIsPresent(10, page.getUlCoresFiltro().findElement(By.partialLinkText(cor)));
+		viewElement.click(page.getUlCoresFiltro().findElement(By.partialLinkText(cor)));
+	}
+
+	//CT05 - Clicar em Todos os produtos, filtrar pelo tamanho e estilo, e adiciona-lo
+	public void clicarLinkTamanho(String tamanho) {
+		viewElement.waitForElementIsPresent(10, page.getUlTamanhoFiltro().findElement(By.partialLinkText(tamanho)));
+		viewElement.click(page.getUlTamanhoFiltro().findElement(By.partialLinkText(tamanho)));
+	}
+
+	public void clicarLinkEstilo(String estilo) {
+		viewElement.waitForElementIsPresent(10, page.getUlEstiloFiltro().findElement(By.partialLinkText(estilo)));
+		viewElement.click(page.getUlEstiloFiltro().findElement(By.partialLinkText(estilo)));
+	}
+	
+	//CT06 - Clicar em Todos os produtos, filtrar pelo tamanho e composicao, e retirar o filtro Tamanho
+	public void clicarLinkComposicao(String composicao) {
+		viewElement.waitForElementIsPresent(10, page.getUlComposicaoFiltro().findElement(By.partialLinkText(composicao)));
+		viewElement.click(page.getUlComposicaoFiltro().findElement(By.partialLinkText(composicao)));
+	}
+	
+	public void clicarLinkFiltrosAtivos(String filtro) {
+		for(WebElement l : page.getListaLinksFiltrosAtivos())
+		{	
+			LOG.info("FILTROS ATIVOS: " + l.getText());
+			if(l.getText().contains(filtro)) {
+				l.findElement(By.tagName("i")).click();
+				break;
+			}
+		}
+	}
+	
+	public void verificarRemocaoLinkFiltrosAtivos(int qtdFiltrosAdd) {
+		qtdFiltrosAdd--;
+		assertTrue(page.getListaLinksFiltrosAtivos().size() == qtdFiltrosAdd);
+	}
 	
 
 }

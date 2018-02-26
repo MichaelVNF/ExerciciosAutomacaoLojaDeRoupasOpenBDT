@@ -148,4 +148,42 @@ public class StepDefinition {
 	public void verifico_se_o_produto_foi_adicionado() throws Throwable {
 	    stepB.verificarProdutoAdicionadoAoCarrinho();
 	}
+	
+	//CT04 - Clicar em Todos os produtos, filtrar pela cor  e adiciona-lo
+	@When("^clico no link 'Todos os Produtos'$")
+	public void clico_no_link_Todos_os_Produtos() throws Throwable {
+	    stepB.clicarLinkTodosOsProdutos();
+	}
+
+	@When("^clico no link da 'Cor' em 'filtrar' \"([^\"]*)\"$")
+	public void clico_no_link_da_Cor_em_filtrar(String cor) throws Throwable {
+	    stepB.clicarLinkCorProduto(cor);
+	}
+	
+	//CT05 - Clicar em Todos os produtos, filtrar pelo tamanho e estilo, e adiciona-lo
+	@When("^clico no link do 'Tamanho' em 'filtrar' \"([^\"]*)\"$")
+	public void clico_no_link_do_Tamanho_em_filtrar(String tamanho) throws Throwable {
+	    stepB.clicarLinkTamanho(tamanho);
+	}
+
+	@When("^clico no link do 'Estilo' em 'filtrar' \"([^\"]*)\"$")
+	public void clico_no_link_do_Estilo_em_filtrar(String estilo) throws Throwable {
+	    stepB.clicarLinkEstilo(estilo);
+	}
+	
+	//CT06 - Clicar em Todos os produtos, filtrar pelo tamanho e composicao, e retirar o filtro Tamanho
+	@When("^clico no link de 'Composicao' em 'filtrar' \"([^\"]*)\"$")
+	public void clico_no_link_de_Composicao_em_filtrar(String composicao) throws Throwable {
+	    stepB.clicarLinkComposicao(composicao);
+	}
+
+	@When("^clico no link de 'Fitros ativos' para retirar \"([^\"]*)\"$")
+	public void clico_no_link_de_Fitros_ativos_para_retirar(String filtro) throws Throwable {
+	    stepB.clicarLinkFiltrosAtivos(filtro);
+	}
+	
+	@Then("^verificar remocao link 'Filtros ativos' \"([^\"]*)\"$")
+	public void verificar_remocao_link_Filtros_ativos(int qtdFiltrosAdd) throws Throwable {
+	    stepB.verificarRemocaoLinkFiltrosAtivos(qtdFiltrosAdd);
+	}
 }

@@ -86,6 +86,29 @@ public class PageObjectClass extends PageObject{
 	@FindBy(id = "myModalLabel")
 	private WebElement lblMsgProdutoAdicionado;
 			
+	//CT04 - Clicar em Todos os produtos, filtrar pela cor  e adiciona-lo
+
+	@FindBy(xpath = "//a[normalize-space(text())='Todos os produtos']")
+	private WebElement linkTodosOsProdutos;
+	
+	@FindBy(xpath = "//a[contains(@href, 'Cor')]/ancestor::ul")
+	private WebElement ulCoresFiltro; 
+			
+	//CT05 - Clicar em Todos os produtos, filtrar pelo tamanho e estilo, e adiciona-lo
+	@FindBy(xpath = "//a[contains(@href, 'Tamanho')]/ancestor::ul")
+	private WebElement ulTamanhoFiltro; 
+	
+	@FindBy(xpath = "//a[contains(@href, 'Estilo')]/ancestor::ul")
+	private WebElement ulEstiloFiltro; 
+	
+	//CT06 - Clicar em Todos os produtos, filtrar pelo tamanho e composicao, e retirar o filtro Tamanho
+	@FindBy(xpath = "//a[contains(@href, 'Composi')]/ancestor::ul")
+	private WebElement ulComposicaoFiltro; 
+	
+	@FindBy(xpath = "//h1[text()='Filtros ativos']/following-sibling::ul/li")
+	private List<WebElement> listaLinksFiltrosAtivos;
+	
+	
 	public WebElement getLinkEntrar() {
 		return linkEntrar;
 	}
@@ -185,11 +208,31 @@ public class PageObjectClass extends PageObject{
 	public WebElement getLblMsgProdutoAdicionado() {
 		return lblMsgProdutoAdicionado;
 	}
-	
-	
-	
-	
-	
+
+	public WebElement getLinkTodosOsProdutos() {
+		return linkTodosOsProdutos;
+	}
+
+	public WebElement getUlCoresFiltro() {
+		return ulCoresFiltro;
+	}
+
+	public WebElement getUlTamanhoFiltro() {
+		return ulTamanhoFiltro;
+	}
+
+	public WebElement getUlEstiloFiltro() {
+		return ulEstiloFiltro;
+	}
+
+	public WebElement getUlComposicaoFiltro() {
+		return ulComposicaoFiltro;
+	}
+
+	public List<WebElement> getListaLinksFiltrosAtivos() {
+		return listaLinksFiltrosAtivos;
+	}
+
 	
 	
 	
