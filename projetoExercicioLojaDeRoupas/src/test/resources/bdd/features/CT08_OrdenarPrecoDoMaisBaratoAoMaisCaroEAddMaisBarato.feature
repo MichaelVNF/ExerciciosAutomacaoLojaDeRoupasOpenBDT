@@ -14,4 +14,4 @@ Examples:
    | url                      | produto | criterio                          | quantidade |
    | http://10.1.10.133:8080  |         | Preço, do mais baixo ao mais alto | 1          |
 
-#Se o valor de 'produto' for vazio, o 1º, por padrao, será selecionado
+#Se o valor do 'produto' for vazio, o 1º, por padrao, será selecionado

@@ -209,4 +209,24 @@ public class StepDefinition {
 	    stepB.clicarLinkOrdenarPor(criterio);
 	}
 
+    //CT09 - Navegar via menu, aumentar a quantidade do item e finalizar compra
+	@When("^sobreponho o cursor no link do menu superior \"([^\"]*)\"$")
+	public void sobreponho_o_cursor_no_link_do_menu_superior(String categoria) throws Throwable {
+	    stepB.sobreporLinkMenuSuperior(categoria);
+	}
+	
+	@When("^clico no link do menu superior \"([^\"]*)\"$")
+	public void clico_no_link_do_menu_superior(String categoria) throws Throwable {
+	    stepB.clicarLinkMenuSuperior(categoria);
+	}
+	
+	@When("^clico no botao para aumentar a 'Quantidade' \"([^\"]*)\"$")
+	public void clico_no_botao_para_aumentar_a_Quantidade(int quantidade) throws Throwable {
+	    stepB.clicarBotaoAumentarQuantidade(quantidade);
+	}
+	
+	@Then("^clico no botao 'Finalizar Pedido'$")
+	public void clico_no_botao_Finalizar_Pedido() throws Throwable {
+	    stepB.clicarBtnFinalizarPedido();
+	}
 }

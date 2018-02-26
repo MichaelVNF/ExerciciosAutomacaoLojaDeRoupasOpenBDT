@@ -128,6 +128,8 @@ public class StepBusiness {
 	}
 	
 	public void clicarLinkProduto(String produto) {
+		viewElement.waitForElementIsPresent(10, page.getListaLinksProdutos().get(0));
+		
 		for(WebElement l : page.getListaLinksProdutos()) 
 		{
 			LOG.info("PRODUTO: " + l.getText());
@@ -235,9 +237,25 @@ public class StepBusiness {
 		viewElement.click(page.getBtnOrdenarPor());
 		viewElement.waitForElementIsPresent(10, page.getLinksOrdenarPor().findElement(By.linkText(criterio)));
 		viewElement.click(page.getLinksOrdenarPor().findElement(By.linkText(criterio)));
-		
-		page.waitFor(10).seconds();
 	}
 	
+    //CT09 - Navegar via menu, aumentar a quantidade do item e finalizar compra
+	public void sobreporLinkMenuSuperior(String categoria) {
+		viewElement.waitForElementIsPresent(10, page.getMenuSuperior());
+		viewElement.mouseOver(page.getMenuSuperior().findElement(By.partialLinkText(categoria)));
+	}
 	
+	public void clicarLinkMenuSuperior(String categoria) {
+		viewElement.waitForElementIsPresent(10, page.getMenuSuperior());
+		viewElement.click(page.getMenuSuperior().findElement(By.partialLinkText(categoria)));
+	}
+	
+	public void clicarBotaoAumentarQuantidade(int quantidade) {
+		for(int i = 1; i < quantidade; i++)
+			viewElement.click(page.getBtnAumentarQtd());
+	}
+	
+	public void clicarBtnFinalizarPedido() {
+		viewElement.click(page.getBtnFinalizarPedido());
+	}
 }

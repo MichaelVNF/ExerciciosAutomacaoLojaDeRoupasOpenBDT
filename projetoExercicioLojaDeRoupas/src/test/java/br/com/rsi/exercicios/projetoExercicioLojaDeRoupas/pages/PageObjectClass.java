@@ -122,6 +122,18 @@ public class PageObjectClass extends PageObject{
 	@FindBy(xpath = "//div[@class='dropdown-menu']")
 	private WebElement linksOrdenarPor;
 	
+    //CT09 - Navegar via menu, aumentar a quantidade do item e finalizar compra
+	@FindBy(id = "top-menu")
+	private WebElement menuSuperior;
+	
+	@FindBy(xpath = "//button[contains(@class,'-up')]")
+	private WebElement btnAumentarQtd;
+	
+	@FindBy(xpath = "//a[text()='Finalizar pedido']")
+	private WebElement btnFinalizarPedido;
+	
+	
+	
 	public WebElement getLinkEntrar() {
 		return linkEntrar;
 	}
@@ -260,6 +272,18 @@ public class PageObjectClass extends PageObject{
 
 	public WebElement getLinksOrdenarPor() {
 		return linksOrdenarPor;
+	}
+
+	public WebElement getMenuSuperior() {
+		return menuSuperior;
+	}
+
+	public WebElement getBtnAumentarQtd() {
+		return btnAumentarQtd;
+	}
+
+	public WebElement getBtnFinalizarPedido() {
+		return btnFinalizarPedido;
 	}
 
 	
