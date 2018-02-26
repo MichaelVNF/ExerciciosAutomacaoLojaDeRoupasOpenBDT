@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="fb96c04f82dcbe766dda705a1b594f5284615dfdafb6539c7f9e6a5bd8ce3739.html">Ct01 - Cadastrar Novo Usuario</a>
+                > <a
+                    href="fccbeb396b6a4989554c81feefc69083768b7b8c5e4a7c9bd395ab042ca0dfaf.html">Cadastrar usuario </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-02-2018 11:36</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Ct01 - Cadastrar Novo Usuario</span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="0b6f8ec24f6dbc7f634ca3c9b1f445657ca6d8a2943a6368f0e48faa9c408ea9.html">Cadastrausuario
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Cadastrar Usuario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Abrir pagina: &lt;url&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="986ff659f02d8c88792e38017b541f8b9e5e12e3089102d95c8488df7171439f.png" title="Given estou na pagina inicial do site &quot;&lt;url&gt;&quot;" width="960"/>
+                <img src="986ff659f02d8c88792e38017b541f8b9e5e12e3089102d95c8488df7171439f.png" title="Abrir pagina: http://10.1.10.133:8080" width="960"/>
+                <img src="9a43f42acbc42501d0cfd407ded5e007ba8ef354a77654cf8d8990d410c1b607.png" title="When clico no link 'Entrar'" width="960"/>
+                <img src="1a7bb0fb2737cfd539323391255a83ee1d1f3e80c6894a8654fa8a4114da9ecd.png" title="And clico no link 'N&atilde;o tem uma conta? Crie uma aqui'" width="960"/>
+                <img src="4bbe67c221d809313cc2f0b69cb3f016baef7f9a6b2ef3222486908a51364a78.png" title="And seleciono o rdb 'Titulo Social' &quot;&lt;tituloSocial&gt;&quot;" width="960"/>
+                <img src="fed1f74d795ac0d453b4f1c68114f7d7ff17430c9d49e06b8eb613f7aa93cecc.png" title="And preencho o campo 'Nome' &quot;&lt;nome&gt;&quot;" width="960"/>
+                <img src="480a25221719da0cde1b76cc927a42e9596990e2013320f9b739200d4e380928.png" title="And preencho o campo 'sobreNome' &quot;&lt;sobreNome&gt;&quot;" width="960"/>
+                <img src="1a3a22c4e704dcdd920a4cb96671d10ca05e43fa783fa3dabee99fdd3659f8e9.png" title="And preencho o campo 'sobreNome' &quot;&lt;sobreNome&gt;&quot;" width="960"/>
+                <img src="f0a5f400137f3e0dd2b184f88d290492fe5b0648a4db977495c7bb6457b6d269.png" title="And preencho o campo 'E-mail' &quot;&lt;email&gt;&quot; &quot;&lt;modoOperacao&gt;&quot;" width="960"/>
+                <img src="1922929079d27f6f512d056f301489eaf7208fbee956f355e20f2f24483bd70a.png" title="And preencho o campo 'Senha' &quot;&lt;senha&gt;&quot;" width="960"/>
+                <img src="aeb7e57fe69caa1fcbcd2640338bda9a8231909355dcdf6a8bfb4adaee687ff6.png" title="And preencho o campo 'Senha' &quot;&lt;senha&gt;&quot;" width="960"/>
+                <img src="d766934940e2127b98e19f92e996c6b050de06481acaf00b81618fe6ed57433f.png" title="And clico no botao 'Mostrar'" width="960"/>
+                <img src="aa788ee0927b0217ad1dae71017c1dbd206060a72cf1fb96c073ab89bea9c50c.png" title="And clico no botao 'Mostrar'" width="960"/>
+                <img src="fbcbd647e7a923c12f5b5b3e2f7d97ddc1f734226d45898c1f517d628df11c64.png" title="And preencho o campo 'Data de Nascimento' &quot;&lt;dtNasc&gt;&quot;" width="960"/>
+                <img src="52f13d65c1df3615be5bee852d4ea85ca458c88c94a415364e88d75159401035.png" title="And seleciono o ckb 'Receber Ofertas' &quot;&lt;receberOfertas&gt;&quot;" width="960"/>
+                <img src="50dacc8c466620bea76ea07da17d29ba0beb762898f2f8fa99320eb9d7fe7441.png" title="And seleciono o ckb 'Receber Ofertas' &quot;&lt;receberOfertas&gt;&quot;" width="960"/>
+                <img src="9c9b38ff21cfef15f1886604dc02e21158fd8a5d13bd339feaf03aa17588af8d.png" title="And seleciono o ckb 'Receber Noticias' &quot;&lt;receberNoticias&gt;&quot;" width="960"/>
+                <img src="6119036534f105891cce238b05b563c4f37c97ab541ac3ef39a16a061d01d25e.png" title="And clico no botao 'Salvar'" width="960"/>
+                <img src="6119036534f105891cce238b05b563c4f37c97ab541ac3ef39a16a061d01d25e.png" title="Then verificar se usuario foi logado &quot;&lt;nome&gt;&quot; &quot;&lt;sobreNome&gt;&quot;: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.3.0</span>
+</div>
+</body>
+</html>

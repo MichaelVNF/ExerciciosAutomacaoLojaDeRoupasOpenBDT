@@ -186,4 +186,27 @@ public class StepDefinition {
 	public void verificar_remocao_link_Filtros_ativos(int qtdFiltrosAdd) throws Throwable {
 	    stepB.verificarRemocaoLinkFiltrosAtivos(qtdFiltrosAdd);
 	}
+	
+	//CT07 - Clicar em Todos os produtos, filtrar pelo preco, e retirar o todos os filtros
+	@When("^clico no link do 'Preco' em 'filtrar' \"([^\"]*)\"$")
+	public void clico_no_link_do_Preco_em_filtrar(String preco) throws Throwable {
+	    stepB.clicarLinkPreco(preco);
+	}
+
+	@When("^clico no botao 'Limpar tudo'$")
+	public void clico_no_botao_Limpar_tudo() throws Throwable {
+	    stepB.clicarBtnLimparTudo();
+	}
+	
+	@Then("^verificar remocao de todos os filtros$")
+	public void verificar_remocao_de_todos_os_filtros() throws Throwable {
+	    stepB.verificarRemocaoTodosOsFiltros();
+	}
+	
+	//CT08 - Clicar em Todos os produtos, ordenar do mais barato ao mais caro, adicionar o mais barato
+	@When("^clico no link 'Ordenar por' \"([^\"]*)\"$")
+	public void clico_no_link_Ordenar_por(String criterio) throws Throwable {
+	    stepB.clicarLinkOrdenarPor(criterio);
+	}
+
 }

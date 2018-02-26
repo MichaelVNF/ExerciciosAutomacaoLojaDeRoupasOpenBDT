@@ -108,6 +108,19 @@ public class PageObjectClass extends PageObject{
 	@FindBy(xpath = "//h1[text()='Filtros ativos']/following-sibling::ul/li")
 	private List<WebElement> listaLinksFiltrosAtivos;
 	
+	//CT07 - Clicar em Todos os produtos, filtrar pelo preco, e retirar o todos os filtros
+	@FindBy(xpath = "//a[contains(@href, 'Pre') and not(contains(@href, 'Preto')) ]/ancestor::ul")
+	private WebElement ulPrecoFiltro;
+	
+	@FindBy(xpath = "//div[@id='_desktop_search_filters_clear_all']/button")
+	private WebElement btnLimparTudo;
+	
+	//CT08 - Clicar em Todos os produtos, ordenar do mais barato ao mais caro, adicionar o mais barato
+	@FindBy(xpath = "//button[@class='btn-unstyle select-title']")
+	private WebElement btnOrdenarPor;
+	
+	@FindBy(xpath = "//div[@class='dropdown-menu']")
+	private WebElement linksOrdenarPor;
 	
 	public WebElement getLinkEntrar() {
 		return linkEntrar;
@@ -233,6 +246,23 @@ public class PageObjectClass extends PageObject{
 		return listaLinksFiltrosAtivos;
 	}
 
+	public WebElement getUlPrecoFiltro() {
+		return ulPrecoFiltro;
+	}
+
+	public WebElement getBtnLimparTudo() {
+		return btnLimparTudo;
+	}
+
+	public WebElement getBtnOrdenarPor() {
+		return btnOrdenarPor;
+	}
+
+	public WebElement getLinksOrdenarPor() {
+		return linksOrdenarPor;
+	}
+
+	
 	
 	
 	

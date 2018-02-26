@@ -1,0 +1,1648 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="br"><head>
+    
+      
+  <meta charset="utf-8" />
+
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+
+
+  <title>Início</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+        <link rel="canonical" href="http://10.1.10.133:8080/br/2-inicio" />
+  
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico?1324977642" />
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico?1324977642" />
+
+
+
+    <link rel="stylesheet" href="http://10.1.10.133:8080/themes/classic/assets/css/theme.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="http://10.1.10.133:8080/js/jquery/ui/themes/base/minified/jquery-ui.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="http://10.1.10.133:8080/js/jquery/ui/themes/base/minified/jquery.ui.theme.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="http://10.1.10.133:8080/modules/ps_imageslider/css/homeslider.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="http://10.1.10.133:8080/themes/classic/assets/css/custom.css" type="text/css" media="all" />
+
+
+
+
+  
+
+  <script type="text/javascript">
+        var prestashop = {"cart":{"products":[],"totals":{"total":{"type":"total","label":"Total","amount":0,"value":"R$0,00"},"total_including_tax":{"type":"total","label":"Total (c\/ imposto)","amount":0,"value":"R$0,00"},"total_excluding_tax":{"type":"total","label":"Total (s\/ imposto)","amount":0,"value":"R$0,00"}},"subtotals":{"products":{"type":"products","label":"Subtotal","amount":0,"value":"R$0,00"},"discounts":null,"shipping":{"type":"shipping","label":"Frete","amount":0,"value":"Gr\u00e1tis"},"tax":null},"products_count":0,"summary_string":"0 artigos","labels":{"tax_short":"(taxa incl.)","tax_long":"(com IVA)"},"id_address_delivery":0,"id_address_invoice":0,"is_virtual":false,"vouchers":{"allowed":0,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"name":"Real brasileiro","iso_code":"BRL","iso_code_num":"986","sign":"R$"},"customer":{"lastname":null,"firstname":null,"email":null,"last_passwd_gen":null,"birthday":null,"newsletter":null,"newsletter_date_add":null,"ip_registration_newsletter":null,"optin":null,"website":null,"company":null,"siret":null,"ape":null,"outstanding_allow_amount":0,"max_payment_days":0,"note":null,"is_guest":0,"id_shop":null,"id_shop_group":null,"id_default_group":1,"date_add":null,"date_upd":null,"reset_password_token":null,"reset_password_validity":null,"id":null,"is_logged":false,"gender":{"type":null,"name":null,"id":null},"risk":{"name":null,"color":null,"percent":null,"id":null},"addresses":[]},"language":{"name":"Portugu\u00eas (Brasil)","iso_code":"br","locale":"pt-BR","language_code":"pt-br","is_rtl":"0","date_format_lite":"Y-m-d","date_format_full":"Y-m-d H:i:s","id":2},"page":{"title":"","canonical":"http:\/\/10.1.10.133:8080\/br\/2-inicio","meta":{"title":"In\u00edcio","description":"","keywords":"","robots":"index"},"page_name":"category","body_classes":{"lang-br":true,"lang-rtl":false,"country-BR":true,"currency-BRL":true,"layout-left-column":true,"page-category":true,"tax-display-enabled":true,"category-id-2":true,"category-In\u00edcio":true,"category-id-parent-1":true,"category-depth-level-1":true},"admin_notifications":[]},"shop":{"name":"rsi","email":"alexandre.xavier@rsinet.com.br","registration_number":false,"long":false,"lat":false,"logo":"\/img\/logo.png","stores_icon":"\/img\/logo_stores.png","favicon":"\/img\/favicon.ico","favicon_update_time":"1324977642","address":{"formatted":"rsi&lt;br&gt;Brasil","address1":false,"address2":false,"postcode":false,"city":false,"state":null,"country":"Brasil"},"phone":false,"fax":false},"urls":{"base_url":"http:\/\/10.1.10.133:8080\/","current_url":"http:\/\/10.1.10.133:8080\/br\/2-inicio","shop_domain_url":"http:\/\/10.1.10.133:8080","img_ps_url":"http:\/\/10.1.10.133:8080\/img\/","img_cat_url":"http:\/\/10.1.10.133:8080\/img\/c\/","img_lang_url":"http:\/\/10.1.10.133:8080\/img\/l\/","img_prod_url":"http:\/\/10.1.10.133:8080\/img\/p\/","img_manu_url":"http:\/\/10.1.10.133:8080\/img\/m\/","img_sup_url":"http:\/\/10.1.10.133:8080\/img\/su\/","img_ship_url":"http:\/\/10.1.10.133:8080\/img\/s\/","img_store_url":"http:\/\/10.1.10.133:8080\/img\/st\/","img_col_url":"http:\/\/10.1.10.133:8080\/img\/co\/","img_url":"http:\/\/10.1.10.133:8080\/themes\/classic\/assets\/img\/","css_url":"http:\/\/10.1.10.133:8080\/themes\/classic\/assets\/css\/","js_url":"http:\/\/10.1.10.133:8080\/themes\/classic\/assets\/js\/","pic_url":"http:\/\/10.1.10.133:8080\/upload\/","pages":{"address":"http:\/\/10.1.10.133:8080\/br\/endereco","addresses":"http:\/\/10.1.10.133:8080\/br\/enderecos","authentication":"http:\/\/10.1.10.133:8080\/br\/inicio-de-sessao","cart":"http:\/\/10.1.10.133:8080\/br\/carrinho","category":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=category","cms":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=cms","contact":"http:\/\/10.1.10.133:8080\/br\/contacte-nos","discount":"http:\/\/10.1.10.133:8080\/br\/descontos","guest_tracking":"http:\/\/10.1.10.133:8080\/br\/seguimento-de-visitante","history":"http:\/\/10.1.10.133:8080\/br\/historico-de-encomendas","identity":"http:\/\/10.1.10.133:8080\/br\/identidade","index":"http:\/\/10.1.10.133:8080\/br\/","my_account":"http:\/\/10.1.10.133:8080\/br\/a-minha-conta","order_confirmation":"http:\/\/10.1.10.133:8080\/br\/confirmacao-encomenda","order_detail":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=order-detail","order_follow":"http:\/\/10.1.10.133:8080\/br\/acompanhar-encomenda","order":"http:\/\/10.1.10.133:8080\/br\/compra","order_return":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=order-return","order_slip":"http:\/\/10.1.10.133:8080\/br\/nota-de-encomenda","pagenotfound":"http:\/\/10.1.10.133:8080\/br\/p\u00e1gina-n\u00e3o-encontrada","password":"http:\/\/10.1.10.133:8080\/br\/recuperar-palavra-passe","pdf_invoice":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=pdf-invoice","pdf_order_return":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=pdf-order-return","pdf_order_slip":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=pdf-order-slip","prices_drop":"http:\/\/10.1.10.133:8080\/br\/promocoes","product":"http:\/\/10.1.10.133:8080\/br\/index.php?controller=product","search":"http:\/\/10.1.10.133:8080\/br\/pesquisa","sitemap":"http:\/\/10.1.10.133:8080\/br\/mapa do site","stores":"http:\/\/10.1.10.133:8080\/br\/lojas","supplier":"http:\/\/10.1.10.133:8080\/br\/fornecedores","register":"http:\/\/10.1.10.133:8080\/br\/inicio-de-sessao?create_account=1","order_login":"http:\/\/10.1.10.133:8080\/br\/compra?login=1"},"theme_assets":"\/themes\/classic\/assets\/","actions":{"logout":"http:\/\/10.1.10.133:8080\/br\/?mylogout="}},"configuration":{"display_taxes_label":true,"low_quantity_threshold":3,"is_b2b":false,"is_catalog":false,"show_prices":true,"opt_in":{"partner":true},"quantity_discount":{"type":"discount","label":"Desconto"},"voucher_enabled":0,"return_enabled":0,"number_of_days_for_return":14},"field_required":[],"breadcrumb":{"links":[{"title":"In\u00edcio","url":"http:\/\/10.1.10.133:8080\/br\/"},null],"count":2},"link":{"protocol_link":"http:\/\/","protocol_content":"http:\/\/"},"time":1519659851,"static_token":"acca69e09607fbbb0af05b5c7d52330f","token":"8b59b94c90fb4af58e504c56bd5a6ebb"};
+      </script>
+
+
+
+  
+
+
+
+    
+  </head>
+
+  <body id="category" class="lang-br country-br currency-brl layout-left-column page-category tax-display-enabled category-id-2 category-inicio category-id-parent-1 category-depth-level-1">
+
+    
+      
+    
+
+    <main>
+      
+              
+
+      <header id="header">
+        
+          
+  <div class="header-banner">
+    
+  </div>
+
+
+
+  <nav class="header-nav">
+    <div class="container">
+        <div class="row">
+          <div class="hidden-sm-down">
+            <div class="col-md-4 col-xs-12">
+              <div id="_desktop_contact_link">
+  <div id="contact-link">
+          <a href="http://10.1.10.133:8080/br/contacte-nos">Fale conosco</a>
+      </div>
+</div>
+
+            </div>
+            <div class="col-md-8 right-nav">
+                <div id="_desktop_language_selector">
+  <div class="language-selector-wrapper">
+    <span id="language-selector-label" class="hidden-md-up">Língua:</span>
+    <div class="language-selector dropdown js-dropdown">
+      <button data-toggle="dropdown" class="hidden-sm-down btn-unstyle" aria-haspopup="true" aria-expanded="false" aria-label="Lista pendentes de línguas">
+        <span class="expand-more">Português</span>
+        <i class="material-icons expand-more"></i>
+      </button>
+      <ul class="dropdown-menu hidden-sm-down" aria-labelledby="language-selector-label">
+                  <li>
+            <a href="http://10.1.10.133:8080/pt/2-inicio" class="dropdown-item">Português</a>
+          </li>
+                  <li class="current">
+            <a href="http://10.1.10.133:8080/br/2-inicio" class="dropdown-item">Português</a>
+          </li>
+              </ul>
+      <select class="link hidden-md-up" aria-labelledby="language-selector-label">
+                  <option value="http://10.1.10.133:8080/pt/2-inicio">Português</option>
+                  <option value="http://10.1.10.133:8080/br/2-inicio" selected="selected">Português</option>
+              </select>
+    </div>
+  </div>
+</div>
+<div id="_desktop_user_info">
+  <div class="user-info">
+          <a href="http://10.1.10.133:8080/br/a-minha-conta" title="Entrar com sua conta de cliente" rel="nofollow">
+        <i class="material-icons"></i>
+        <span class="hidden-sm-down">Entrar</span>
+      </a>
+      </div>
+</div>
+<div id="_desktop_cart">
+  <div class="blockcart cart-preview inactive" data-refresh-url="//10.1.10.133:8080/br/module/ps_shoppingcart/ajax">
+    <div class="header">
+              <i class="material-icons shopping-cart">shopping_cart</i>
+        <span class="hidden-sm-down">Carrinho</span>
+        <span class="cart-products-count">(0)</span>
+          </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+          <div class="hidden-md-up text-sm-center mobile">
+            <div class="float-xs-left" id="menu-icon">
+              <i class="material-icons d-inline"></i>
+            </div>
+            <div class="float-xs-right" id="_mobile_cart"></div>
+            <div class="float-xs-right" id="_mobile_user_info"></div>
+            <div class="top-logo" id="_mobile_logo"></div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+    </div>
+  </nav>
+
+
+
+  <div class="header-top">
+    <div class="container">
+       <div class="row">
+        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+          <a href="http://10.1.10.133:8080/">
+            <img class="logo img-responsive" src="/img/logo.png" alt="rsi" />
+          </a>
+        </div>
+        <div class="col-md-10 col-sm-12 position-static">
+          <div class="row">
+            
+
+<div class="menu col-lg-8 col-md-7 js-top-menu position-static hidden-sm-down" id="_desktop_top_menu">
+              <ul class="top-menu" id="top-menu" data-depth="0">
+                    <li class="category" id="category-3">
+                          <a class="dropdown-item" href="http://10.1.10.133:8080/br/3-women" data-depth="0">
+                                  
+                                    <span class="float-xs-right hidden-md-up">
+                    <span data-target="#top_sub_menu_95496" data-toggle="collapse" class="navbar-toggler collapse-icons">
+                      <i class="material-icons add"></i>
+                      <i class="material-icons remove"></i>
+                    </span>
+                  </span>
+                                Women
+              </a>
+                            <div class="popover sub-menu js-sub-menu collapse" id="top_sub_menu_95496">
+                          <ul class="top-menu" data-depth="1">
+                    <li class="category" id="category-4">
+                          <a class="dropdown-item dropdown-submenu" href="http://10.1.10.133:8080/br/4-tops" data-depth="1">
+                                  
+                                    <span class="float-xs-right hidden-md-up">
+                    <span data-target="#top_sub_menu_53805" data-toggle="collapse" class="navbar-toggler collapse-icons">
+                      <i class="material-icons add"></i>
+                      <i class="material-icons remove"></i>
+                    </span>
+                  </span>
+                                Tops
+              </a>
+                            <div class="collapse" id="top_sub_menu_53805">
+                          <ul class="top-menu" data-depth="2">
+                    <li class="category" id="category-5">
+                          <a class="dropdown-item" href="http://10.1.10.133:8080/br/5-tshirts" data-depth="2">
+                                T-shirts
+              </a>
+                          </li>
+                    <li class="category" id="category-7">
+                          <a class="dropdown-item" href="http://10.1.10.133:8080/br/7-blouses" data-depth="2">
+                                Blouses
+              </a>
+                          </li>
+              </ul>
+    
+              </div>
+                          </li>
+                    <li class="category" id="category-8">
+                          <a class="dropdown-item dropdown-submenu" href="http://10.1.10.133:8080/br/8-dresses" data-depth="1">
+                                  
+                                    <span class="float-xs-right hidden-md-up">
+                    <span data-target="#top_sub_menu_73067" data-toggle="collapse" class="navbar-toggler collapse-icons">
+                      <i class="material-icons add"></i>
+                      <i class="material-icons remove"></i>
+                    </span>
+                  </span>
+                                Dresses
+              </a>
+                            <div class="collapse" id="top_sub_menu_73067">
+                          <ul class="top-menu" data-depth="2">
+                    <li class="category" id="category-9">
+                          <a class="dropdown-item" href="http://10.1.10.133:8080/br/9-casual-dresses" data-depth="2">
+                                Casual Dresses
+              </a>
+                          </li>
+                    <li class="category" id="category-10">
+                          <a class="dropdown-item" href="http://10.1.10.133:8080/br/10-evening-dresses" data-depth="2">
+                                Evening Dresses
+              </a>
+                          </li>
+                    <li class="category" id="category-11">
+                          <a class="dropdown-item" href="http://10.1.10.133:8080/br/11-summer-dresses" data-depth="2">
+                                Summer Dresses
+              </a>
+                          </li>
+              </ul>
+    
+              </div>
+                          </li>
+              </ul>
+    
+              </div>
+                          </li>
+              </ul>
+    
+    <div class="clearfix"></div>
+</div>
+<!-- Block search module TOP -->
+<div id="search_widget" class="col-lg-4 col-md-5 col-sm-12 search-widget" data-search-controller-url="//10.1.10.133:8080/br/pesquisa">
+	<form method="get" action="//10.1.10.133:8080/br/pesquisa">
+		<input type="hidden" name="controller" value="search" />
+		<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="s" value="" placeholder="Pesquisar o nosso catálogo" aria-label="Busca" class="ui-autocomplete-input" autocomplete="off" />
+		<button type="submit">
+			<i class="material-icons search"></i>
+      <span class="hidden-xl-down">Busca</span>
+		</button>
+	</form>
+</div>
+<!-- /Block search module TOP -->
+
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
+        <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
+        <div class="js-top-menu-bottom">
+          <div id="_mobile_currency_selector"></div>
+          <div id="_mobile_language_selector"></div>
+          <div id="_mobile_contact_link"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+        
+      </header>
+
+      
+        
+<aside id="notifications">
+  <div class="container">
+    
+    
+    
+      </div>
+</aside>
+      
+
+      <section id="wrapper">
+        
+        <div class="container">
+          
+            <nav data-depth="2" class="breadcrumb hidden-sm-down">
+  <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+          
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="http://10.1.10.133:8080/br/">
+            <span itemprop="name">Início</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+      
+          
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="">
+            <span itemprop="name"></span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+      
+      </ol>
+</nav>
+          
+
+          
+            <div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
+                              
+
+
+<div class="block-categories hidden-sm-down">
+  <ul class="category-top-menu">
+    <li><a class="text-uppercase h6" href="http://10.1.10.133:8080/br/2-inicio">Início</a></li>
+    <li>  <ul class="category-sub-menu"><li data-depth="0"><a href="http://10.1.10.133:8080/br/3-women">Women</a><div class="navbar-toggler collapse-icons" data-toggle="collapse" data-target="#exCollapsingNavbar3"><i class="material-icons add"></i><i class="material-icons remove"></i></div><div class="collapse" id="exCollapsingNavbar3">  <ul class="category-sub-menu"><li data-depth="1"><a class="category-sub-link" href="http://10.1.10.133:8080/br/4-tops">Tops</a><span class="arrows" data-toggle="collapse" data-target="#exCollapsingNavbar4"><i class="material-icons arrow-right"></i><i class="material-icons arrow-down"></i></span><div class="collapse" id="exCollapsingNavbar4">  <ul class="category-sub-menu"><li data-depth="2"><a class="category-sub-link" href="http://10.1.10.133:8080/br/5-tshirts">T-shirts</a></li><li data-depth="2"><a class="category-sub-link" href="http://10.1.10.133:8080/br/7-blouses">Blouses</a></li></ul></div></li><li data-depth="1"><a class="category-sub-link" href="http://10.1.10.133:8080/br/8-dresses">Dresses</a><span class="arrows" data-toggle="collapse" data-target="#exCollapsingNavbar8"><i class="material-icons arrow-right"></i><i class="material-icons arrow-down"></i></span><div class="collapse" id="exCollapsingNavbar8">  <ul class="category-sub-menu"><li data-depth="2"><a class="category-sub-link" href="http://10.1.10.133:8080/br/9-casual-dresses">Casual Dresses</a></li><li data-depth="2"><a class="category-sub-link" href="http://10.1.10.133:8080/br/10-evening-dresses">Evening Dresses</a></li><li data-depth="2"><a class="category-sub-link" href="http://10.1.10.133:8080/br/11-summer-dresses">Summer Dresses</a></li></ul></div></li></ul></div></li></ul></li>
+  </ul>
+</div>
+<div id="search_filters_wrapper" class="hidden-sm-down">
+  <div id="search_filter_controls" class="hidden-md-up">
+      <span id="_mobile_search_filters_clear_all"></span>
+      <button class="btn btn-secondary ok">
+        <i class="material-icons"></i>
+        OK
+      </button>
+  </div>
+        <div id="search_filters">
+
+    
+      <h4 class="text-uppercase h6 hidden-sm-down">Filtrar por</h4>
+    
+
+    
+      <div id="_desktop_search_filters_clear_all" class="hidden-sm-down clear-all-wrapper">
+        <button data-search-url="http://10.1.10.133:8080/br/2-inicio" class="btn btn-tertiary js-search-filters-clear-all">
+          <i class="material-icons"></i>
+          Limpar tudo
+        </button>
+      </div>
+    
+
+                            <section class="facet clearfix">
+          <h1 class="h6 facet-title hidden-sm-down">Tamanho</h1>
+                                                                                                          <div class="title hidden-md-up" data-target="#facet_36855" data-toggle="collapse">
+            <h1 class="h6 facet-title">Tamanho</h1>
+            <span class="float-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="material-icons add"></i>
+                <i class="material-icons remove"></i>
+              </span>
+            </span>
+          </div>
+
+          
+            
+              <ul id="facet_36855" class="collapse">
+                                                      <li>
+                      <label class="facet-label" for="facet_input_36855_0">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_36855_0" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Tamanho-S" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Tamanho-S" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          S
+                                                      <span class="magnitude">(7)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_36855_1">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_36855_1" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Tamanho-M" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Tamanho-M" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          M
+                                                      <span class="magnitude">(7)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_36855_2">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_36855_2" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Tamanho-L" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Tamanho-L" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          L
+                                                      <span class="magnitude">(7)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                </ul>
+            
+
+                  </section>
+                        <section class="facet clearfix">
+          <h1 class="h6 facet-title hidden-sm-down">Cor</h1>
+                                                                                                                                                                                                                        <div class="title hidden-md-up" data-target="#facet_57249" data-toggle="collapse">
+            <h1 class="h6 facet-title">Cor</h1>
+            <span class="float-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="material-icons add"></i>
+                <i class="material-icons remove"></i>
+              </span>
+            </span>
+          </div>
+
+          
+            
+              <ul id="facet_57249" class="collapse">
+                                                      <li>
+                      <label class="facet-label" for="facet_input_57249_0">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_0" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Bege" type="checkbox" />
+                                                          <span class="color" style="background-color:#f5f5dc"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Bege" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Bege
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_57249_1">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_1" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Branco" type="checkbox" />
+                                                          <span class="color" style="background-color:#ffffff"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Branco" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Branco
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_57249_2">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_2" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Preto" type="checkbox" />
+                                                          <span class="color" style="background-color:#434A54"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Preto" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Preto
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_57249_3">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_3" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Laranja" type="checkbox" />
+                                                          <span class="color" style="background-color:#F39C11"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Laranja" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Laranja
+                                                      <span class="magnitude">(3)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_57249_4">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_4" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Azul" type="checkbox" />
+                                                          <span class="color" style="background-color:#5D9CEC"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Azul" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Azul
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_57249_5">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_5" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Verde" type="checkbox" />
+                                                          <span class="color" style="background-color:#A0D468"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Verde" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Verde
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_57249_6">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_6" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Amarelo" type="checkbox" />
+                                                          <span class="color" style="background-color:#F1C40F"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Amarelo" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Amarelo
+                                                      <span class="magnitude">(3)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_57249_7">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_57249_7" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Cor-Rosa" type="checkbox" />
+                                                          <span class="color" style="background-color:#FCCACD"></span>
+                                                        </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Cor-Rosa" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Rosa
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                </ul>
+            
+
+                  </section>
+                        <section class="facet clearfix">
+          <h1 class="h6 facet-title hidden-sm-down">Composição</h1>
+                                                                                                          <div class="title hidden-md-up" data-target="#facet_46352" data-toggle="collapse">
+            <h1 class="h6 facet-title">Composição</h1>
+            <span class="float-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="material-icons add"></i>
+                <i class="material-icons remove"></i>
+              </span>
+            </span>
+          </div>
+
+          
+            
+              <ul id="facet_46352" class="collapse">
+                                                      <li>
+                      <label class="facet-label" for="facet_input_46352_0">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_46352_0" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Composi%C3%A7%C3%A3o-Algod%C3%A3o" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Composi%C3%A7%C3%A3o-Algod%C3%A3o" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Algodão
+                                                      <span class="magnitude">(3)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_46352_1">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_46352_1" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Composi%C3%A7%C3%A3o-Poli%C3%A9ster" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Composi%C3%A7%C3%A3o-Poli%C3%A9ster" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Poliéster
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_46352_2">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_46352_2" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Composi%C3%A7%C3%A3o-Viscose" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Composi%C3%A7%C3%A3o-Viscose" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Viscose
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                </ul>
+            
+
+                  </section>
+                        <section class="facet clearfix">
+          <h1 class="h6 facet-title hidden-sm-down">Estilos</h1>
+                                                                                                          <div class="title hidden-md-up" data-target="#facet_86643" data-toggle="collapse">
+            <h1 class="h6 facet-title">Estilos</h1>
+            <span class="float-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="material-icons add"></i>
+                <i class="material-icons remove"></i>
+              </span>
+            </span>
+          </div>
+
+          
+            
+              <ul id="facet_86643" class="collapse">
+                                                      <li>
+                      <label class="facet-label" for="facet_input_86643_0">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_86643_0" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Estilos-Ameninado" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Estilos-Ameninado" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Ameninado
+                                                      <span class="magnitude">(3)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_86643_1">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_86643_1" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Estilos-Casual" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Estilos-Casual" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Casual
+                                                      <span class="magnitude">(3)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_86643_2">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_86643_2" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Estilos-Vistoso" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Estilos-Vistoso" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Vistoso
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                </ul>
+            
+
+                  </section>
+                        <section class="facet clearfix">
+          <h1 class="h6 facet-title hidden-sm-down">Propriedades</h1>
+                                                                                                                                                      <div class="title hidden-md-up" data-target="#facet_97110" data-toggle="collapse">
+            <h1 class="h6 facet-title">Propriedades</h1>
+            <span class="float-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="material-icons add"></i>
+                <i class="material-icons remove"></i>
+              </span>
+            </span>
+          </div>
+
+          
+            
+              <ul id="facet_97110" class="collapse">
+                                                      <li>
+                      <label class="facet-label" for="facet_input_97110_0">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_97110_0" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Manga+curta" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Manga+curta" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Manga curta
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_97110_1">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_97110_1" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+colorido" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+colorido" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Vestido colorido
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_97110_2">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_97110_2" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+comprido" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+comprido" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Vestido comprido
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_97110_3">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_97110_3" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+curto" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+curto" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Vestido curto
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_97110_4">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_97110_4" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+m%C3%A9dio" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Propriedades-Vestido+m%C3%A9dio" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          Vestido médio
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                </ul>
+            
+
+                  </section>
+                                                                <section class="facet clearfix">
+          <h1 class="h6 facet-title hidden-sm-down">Preço</h1>
+                                                                                                                                <div class="title hidden-md-up" data-target="#facet_32039" data-toggle="collapse">
+            <h1 class="h6 facet-title">Preço</h1>
+            <span class="float-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="material-icons add"></i>
+                <i class="material-icons remove"></i>
+              </span>
+            </span>
+          </div>
+
+          
+            
+              <ul id="facet_32039" class="collapse">
+                                                      <li>
+                      <label class="facet-label" for="facet_input_32039_0">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_32039_0" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-10-13" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-10-13" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          R$10,00 - R$13,00
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_32039_1">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_32039_1" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-16-21" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-16-21" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          R$16,00 - R$21,00
+                                                      <span class="magnitude">(2)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_32039_2">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_32039_2" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-25-38" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-25-38" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          R$25,00 - R$38,00
+                                                      <span class="magnitude">(4)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                                        <li>
+                      <label class="facet-label" for="facet_input_32039_3">
+                                                  <span class="custom-checkbox">
+                            <input id="facet_input_32039_3" data-search-url="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-50-64" type="checkbox" />
+                                                          <span><i class="material-icons checkbox-checked"></i></span>
+                                                      </span>
+                        
+                        <a href="http://10.1.10.133:8080/br/2-inicio?q=Pre%C3%A7o-R%24-50-64" class="_gray-darker search-link js-search-link" rel="nofollow">
+                          R$50,00 - R$64,00
+                                                      <span class="magnitude">(1)</span>
+                                                  </a>
+                      </label>
+                    </li>
+                                                </ul>
+            
+
+                  </section>
+            </div>
+
+
+
+</div>
+
+                          </div>
+          
+
+          
+  <div id="content-wrapper" class="left-column col-xs-12 col-sm-8 col-md-9">
+    
+    
+  <section id="main">
+
+    
+    <div class="block-category card card-block hidden-sm-down">
+      <h1 class="h1">Início</h1>
+                </div>
+    <div class="text-sm-center hidden-md-up">
+      <h1 class="h1">Início</h1>
+    </div>
+
+
+    <section id="products">
+      
+        <div id="">
+          
+            <div id="js-product-list-top" class="row products-selection">
+  <div class="col-md-6 hidden-sm-down total-products">
+          <p>Existem 8 produtos.</p>
+      </div>
+  <div class="col-md-6">
+    <div class="row sort-by-row">
+
+      
+        <span class="col-sm-3 col-md-3 hidden-sm-down sort-by">Ordenar por:</span>
+<div class="col-sm-9 col-xs-8 col-md-9 products-sort-order dropdown">
+  <button class="btn-unstyle select-title" rel="nofollow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Relevância    <i class="material-icons float-xs-right"></i>
+  </button>
+  <div class="dropdown-menu">
+          <a rel="nofollow" href="http://10.1.10.133:8080/br/2-inicio?order=product.position.asc" class="select-list current js-search-link">
+        Relevância
+      </a>
+          <a rel="nofollow" href="http://10.1.10.133:8080/br/2-inicio?order=product.name.asc" class="select-list js-search-link">
+        Nome, de A a Z
+      </a>
+          <a rel="nofollow" href="http://10.1.10.133:8080/br/2-inicio?order=product.name.desc" class="select-list js-search-link">
+        Nome, de Z a A
+      </a>
+          <a rel="nofollow" href="http://10.1.10.133:8080/br/2-inicio?order=product.price.asc" class="select-list js-search-link">
+        Preço, do mais baixo ao mais alto
+      </a>
+          <a rel="nofollow" href="http://10.1.10.133:8080/br/2-inicio?order=product.price.desc" class="select-list js-search-link">
+        Preço, do mais alto ao mais baixo
+      </a>
+      </div>
+</div>
+      
+
+              <div class="col-sm-3 col-xs-4 hidden-md-up filter-button">
+          <button id="search_filter_toggler" class="btn btn-secondary">
+            Filtro
+          </button>
+        </div>
+          </div>
+  </div>
+  <div class="col-sm-12 hidden-md-up text-sm-center showing">
+    Mostrando 1-8 de um total de 8 artigo(s)
+  </div>
+</div>
+
+
+          
+        </div>
+
+        
+          <div id="" class="hidden-sm-down">
+            <section id="js-active-search-filters" class="hide">
+  
+    <h1 class="h6 hidden-xs-up">Filtros ativos</h1>
+  
+
+  </section>
+
+
+
+          </div>
+        
+
+        <div id="">
+          
+            <div id="js-product-list">
+  <div class="products row">
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="1" data-id-product-attribute="1" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/tshirts/1-1-camisetas-de-manga-curta-desbotadas.html#/1-tamanho-s/13-cor-laranja" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/1-home_default/camisetas-de-manga-curta-desbotadas.jpg" alt="Camisetas de manga curta..." data-full-size-image-url="http://10.1.10.133:8080/1-large_default/camisetas-de-manga-curta-desbotadas.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/tshirts/1-1-camisetas-de-manga-curta-desbotadas.html#/1-tamanho-s/13-cor-laranja">Camisetas de manga curta...</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$20,64</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag new">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                      <div class="variant-links">
+      <a href="http://10.1.10.133:8080/br/tshirts/1-3-camisetas-de-manga-curta-desbotadas.html#/2-tamanho-m/13-cor-laranja" class="color" title="Laranja" style="background-color: #F39C11"><span class="sr-only">Laranja</span></a>
+      <a href="http://10.1.10.133:8080/br/tshirts/1-2-camisetas-de-manga-curta-desbotadas.html#/1-tamanho-s/14-cor-azul" class="color" title="Azul" style="background-color: #5D9CEC"><span class="sr-only">Azul</span></a>
+    <span class="js-count count"></span>
+</div>
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="2" data-id-product-attribute="7" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/blouses/2-7-blusa.html#/1-tamanho-s/11-cor-preto" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/7-home_default/blusa.jpg" alt="Blusa" data-full-size-image-url="http://10.1.10.133:8080/7-large_default/blusa.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/blouses/2-7-blusa.html#/1-tamanho-s/11-cor-preto">Blusa</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$33,74</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag new">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                      <div class="variant-links">
+      <a href="http://10.1.10.133:8080/br/blouses/2-8-blusa.html#/1-tamanho-s/8-cor-branco" class="color" title="Branco" style="background-color: #ffffff"><span class="sr-only">Branco</span></a>
+      <a href="http://10.1.10.133:8080/br/blouses/2-9-blusa.html#/2-tamanho-m/11-cor-preto" class="color" title="Preto" style="background-color: #434A54"><span class="sr-only">Preto</span></a>
+    <span class="js-count count"></span>
+</div>
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="3" data-id-product-attribute="13" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/casual-dresses/3-13-vestido-estampado.html#/1-tamanho-s/13-cor-laranja" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/8-home_default/vestido-estampado.jpg" alt="Vestido estampado" data-full-size-image-url="http://10.1.10.133:8080/8-large_default/vestido-estampado.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/casual-dresses/3-13-vestido-estampado.html#/1-tamanho-s/13-cor-laranja">Vestido estampado</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$32,49</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag new">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                      <div class="variant-links">
+      <a href="http://10.1.10.133:8080/br/casual-dresses/3-14-vestido-estampado.html#/2-tamanho-m/13-cor-laranja" class="color" title="Laranja" style="background-color: #F39C11"><span class="sr-only">Laranja</span></a>
+    <span class="js-count count"></span>
+</div>
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="4" data-id-product-attribute="16" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/evening-dresses/4-16-vestido-estampado.html#/1-tamanho-s/7-cor-bege" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/10-home_default/vestido-estampado.jpg" alt="Vestido estampado" data-full-size-image-url="http://10.1.10.133:8080/10-large_default/vestido-estampado.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/evening-dresses/4-16-vestido-estampado.html#/1-tamanho-s/7-cor-bege">Vestido estampado</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$63,74</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag new">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                      <div class="variant-links">
+      <a href="http://10.1.10.133:8080/br/evening-dresses/4-17-vestido-estampado.html#/2-tamanho-m/7-cor-bege" class="color" title="Bege" style="background-color: #f5f5dc"><span class="sr-only">Bege</span></a>
+      <a href="http://10.1.10.133:8080/br/evening-dresses/4-43-vestido-estampado.html#/1-tamanho-s/24-cor-rosa" class="color" title="Rosa" style="background-color: #FCCACD"><span class="sr-only">Rosa</span></a>
+    <span class="js-count count"></span>
+</div>
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="5" data-id-product-attribute="19" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/summer-dresses/5-19-vestido-estampado-de-verao.html#/1-tamanho-s/16-cor-amarelo" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/12-home_default/vestido-estampado-de-verao.jpg" alt="Vestido estampado de verão" data-full-size-image-url="http://10.1.10.133:8080/12-large_default/vestido-estampado-de-verao.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/summer-dresses/5-19-vestido-estampado-de-verao.html#/1-tamanho-s/16-cor-amarelo">Vestido estampado de verão</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+                              
+
+                <span class="sr-only">Preço normal</span>
+                <span class="regular-price">R$38,13</span>
+                                  <span class="discount-percentage" style="top: -238px;">-5%</span>
+                              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$36,22</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag discount">Preço reduzido</li>
+                      <li class="product-flag new" style="top: 50px;">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                      <div class="variant-links">
+      <a href="http://10.1.10.133:8080/br/summer-dresses/5-22-vestido-estampado-de-verao.html#/1-tamanho-s/11-cor-preto" class="color" title="Preto" style="background-color: #434A54"><span class="sr-only">Preto</span></a>
+      <a href="http://10.1.10.133:8080/br/summer-dresses/5-21-vestido-estampado-de-verao.html#/1-tamanho-s/13-cor-laranja" class="color" title="Laranja" style="background-color: #F39C11"><span class="sr-only">Laranja</span></a>
+      <a href="http://10.1.10.133:8080/br/summer-dresses/5-20-vestido-estampado-de-verao.html#/1-tamanho-s/14-cor-azul" class="color" title="Azul" style="background-color: #5D9CEC"><span class="sr-only">Azul</span></a>
+      <a href="http://10.1.10.133:8080/br/summer-dresses/5-23-vestido-estampado-de-verao.html#/2-tamanho-m/16-cor-amarelo" class="color" title="Amarelo" style="background-color: #F1C40F"><span class="sr-only">Amarelo</span></a>
+    <span class="js-count count"></span>
+</div>
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="6" data-id-product-attribute="31" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/summer-dresses/6-31-vestido-estampado-de-verao.html#/1-tamanho-s/16-cor-amarelo" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/16-home_default/vestido-estampado-de-verao.jpg" alt="Vestido estampado de verão" data-full-size-image-url="http://10.1.10.133:8080/16-large_default/vestido-estampado-de-verao.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/summer-dresses/6-31-vestido-estampado-de-verao.html#/1-tamanho-s/16-cor-amarelo">Vestido estampado de verão</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$38,13</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag new">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                      <div class="variant-links">
+      <a href="http://10.1.10.133:8080/br/summer-dresses/6-40-vestido-estampado-de-verao.html#/1-tamanho-s/8-cor-branco" class="color" title="Branco" style="background-color: #ffffff"><span class="sr-only">Branco</span></a>
+      <a href="http://10.1.10.133:8080/br/summer-dresses/6-32-vestido-estampado-de-verao.html#/2-tamanho-m/16-cor-amarelo" class="color" title="Amarelo" style="background-color: #F1C40F"><span class="sr-only">Amarelo</span></a>
+    <span class="js-count count"></span>
+</div>
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="7" data-id-product-attribute="34" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/summer-dresses/7-34-vestido-de-chiffon-estampado.html#/1-tamanho-s/16-cor-amarelo" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/20-home_default/vestido-de-chiffon-estampado.jpg" alt="Vestido de chiffon estampado" data-full-size-image-url="http://10.1.10.133:8080/20-large_default/vestido-de-chiffon-estampado.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/summer-dresses/7-34-vestido-de-chiffon-estampado.html#/1-tamanho-s/16-cor-amarelo">Vestido de chiffon estampado</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+                              
+
+                <span class="sr-only">Preço normal</span>
+                <span class="regular-price">R$25,63</span>
+                                  <span class="discount-percentage" style="top: -238px;">-20%</span>
+                              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$20,50</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag discount">Preço reduzido</li>
+                      <li class="product-flag new" style="top: 50px;">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                      <div class="variant-links">
+      <a href="http://10.1.10.133:8080/br/summer-dresses/7-37-vestido-de-chiffon-estampado.html#/1-tamanho-s/15-cor-verde" class="color" title="Verde" style="background-color: #A0D468"><span class="sr-only">Verde</span></a>
+      <a href="http://10.1.10.133:8080/br/summer-dresses/7-35-vestido-de-chiffon-estampado.html#/2-tamanho-m/16-cor-amarelo" class="color" title="Amarelo" style="background-color: #F1C40F"><span class="sr-only">Amarelo</span></a>
+    <span class="js-count count"></span>
+</div>
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+          
+        
+  <article class="product-miniature js-product-miniature" data-id-product="9" data-id-product-attribute="0" itemscope="" itemtype="http://schema.org/Product">
+    <div class="thumbnail-container">
+      
+        <a href="http://10.1.10.133:8080/br/dresses/9-saia.html" class="thumbnail product-thumbnail">
+          <img src="http://10.1.10.133:8080/24-home_default/saia.jpg" alt="Saia" data-full-size-image-url="http://10.1.10.133:8080/24-large_default/saia.jpg" />
+        </a>
+      
+
+      <div class="product-description">
+        
+          <h1 class="h3 product-title" itemprop="name"><a href="http://10.1.10.133:8080/br/dresses/9-saia.html">Saia</a></h1>
+        
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="sr-only">Preço</span>
+              <span itemprop="price" class="price">R$12,50</span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+        
+      </div>
+
+      
+        <ul class="product-flags">
+                      <li class="product-flag new">Novo</li>
+                  </ul>
+      
+
+      <div class="highlighted-informations no-variants hidden-sm-down">
+        
+          <a class="quick-view" href="#" data-link-action="quickview">
+            <i class="material-icons search"></i> Visualização rápida
+          </a>
+        
+
+        
+                  
+      </div>
+
+    </div>
+  </article>
+
+      
+      </div>
+
+  
+    <nav class="pagination">
+  <div class="col-md-4">
+    
+      Mostrando 1-8 de um total de 8 artigo(s)
+    
+  </div>
+
+  <div class="col-md-6 offset-md-2 pr-0">
+    
+         
+  </div>
+
+</nav>
+  
+
+  <div class="hidden-md-up text-xs-right up">
+    <a href="#header" class="btn btn-secondary">
+      Voltar ao topo
+      <i class="material-icons"></i>
+    </a>
+  </div>
+</div>
+
+
+          
+        </div>
+
+        <div id="js-product-list-bottom"></div>
+
+
+
+          </section>
+
+  </section>
+
+    
+  </div>
+
+
+          
+        </div>
+        
+      </section>
+
+      <footer id="footer">
+        
+          <div class="container">
+  <div class="row">
+    
+      
+<div class="block_newsletter col-lg-8 col-md-12 col-sm-12">
+  <div class="row">
+    <p id="block-newsletter-label" class="col-md-5 col-xs-12">Aproveite as nossas últimas novidades e ofertas especiais</p>
+    <div class="col-md-7 col-xs-12">
+      <form action="http://10.1.10.133:8080/br/#footer" method="post">
+        <div class="row">
+          <div class="col-xs-12">
+            <input class="btn btn-primary float-xs-right hidden-xs-down" name="submitNewsletter" type="submit" value="Subscrever" />
+            <input class="btn btn-primary float-xs-right hidden-sm-up" name="submitNewsletter" type="submit" value="OK" />
+            <div class="input-wrapper">
+              <input name="email" type="text" value="" placeholder="O seu endereço de e-mail" aria-labelledby="block-newsletter-label" />
+            </div>
+            <input type="hidden" name="action" value="0" />
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-xs-12">
+                              <p>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</p>
+                                      </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+  <div class="block-social col-lg-4 col-md-12 col-sm-12">
+    <ul>
+          </ul>
+  </div>
+
+
+    
+  </div>
+</div>
+<div class="footer-container">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col-md-4 links">
+  <div class="row">
+      <div class="col-md-6 wrapper">
+      <h3 class="h3 hidden-sm-down">Products</h3>
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_85764" data-toggle="collapse">
+        <span class="h3">Products</span>
+        <span class="float-xs-right">
+          <span class="navbar-toggler collapse-icons">
+            <i class="material-icons add"></i>
+            <i class="material-icons remove"></i>
+          </span>
+        </span>
+      </div>
+      <ul id="footer_sub_menu_85764" class="collapse">
+                  <li>
+            <a id="link-product-page-prices-drop-1" class="cms-page-link" href="http://10.1.10.133:8080/br/promocoes" title="Produtos à venda">
+              Promoção
+            </a>
+          </li>
+                  <li>
+            <a id="link-product-page-new-products-1" class="cms-page-link" href="http://10.1.10.133:8080/br/novos-produtos" title="Nossos novos produtos">
+              Novidades
+            </a>
+          </li>
+                  <li>
+            <a id="link-product-page-best-sales-1" class="cms-page-link" href="http://10.1.10.133:8080/br/top-vendas" title="Os nossos produto mais vendidos">
+              Top de Vendas
+            </a>
+          </li>
+              </ul>
+    </div>
+      <div class="col-md-6 wrapper">
+      <h3 class="h3 hidden-sm-down">Our company</h3>
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_7730" data-toggle="collapse">
+        <span class="h3">Our company</span>
+        <span class="float-xs-right">
+          <span class="navbar-toggler collapse-icons">
+            <i class="material-icons add"></i>
+            <i class="material-icons remove"></i>
+          </span>
+        </span>
+      </div>
+      <ul id="footer_sub_menu_7730" class="collapse">
+                  <li>
+            <a id="link-cms-page-1-2" class="cms-page-link" href="http://10.1.10.133:8080/br/content/1-entrega" title="Nossos termos e condições de entrega">
+              Entrega
+            </a>
+          </li>
+                  <li>
+            <a id="link-cms-page-2-2" class="cms-page-link" href="http://10.1.10.133:8080/br/content/2-advertencia-legal" title="Advertência legal">
+              Advertência Legal
+            </a>
+          </li>
+                  <li>
+            <a id="link-cms-page-3-2" class="cms-page-link" href="http://10.1.10.133:8080/br/content/3-termos-e-condicoes-de-utilizacao" title="Nossos termos e condições de utilização">
+              Termos e condições de utilização
+            </a>
+          </li>
+                  <li>
+            <a id="link-cms-page-4-2" class="cms-page-link" href="http://10.1.10.133:8080/br/content/4-quem-somos" title="Saiba mais sobre nós">
+              Quem somos
+            </a>
+          </li>
+                  <li>
+            <a id="link-cms-page-5-2" class="cms-page-link" href="http://10.1.10.133:8080/br/content/5-pagamento-seguro" title="Nosso meio de pagamento seguro">
+              Pagamento seguro
+            </a>
+          </li>
+                  <li>
+            <a id="link-static-page-contact-2" class="cms-page-link" href="http://10.1.10.133:8080/br/contacte-nos" title="Use o nosso formulário para nos contactar">
+              Fale conosco
+            </a>
+          </li>
+                  <li>
+            <a id="link-static-page-sitemap-2" class="cms-page-link" href="http://10.1.10.133:8080/br/mapa do site" title="Não consegue encontrar o que procura?">
+              Mapa do site
+            </a>
+          </li>
+                  <li>
+            <a id="link-static-page-stores-2" class="cms-page-link" href="http://10.1.10.133:8080/br/lojas" title="">
+              Lojas
+            </a>
+          </li>
+              </ul>
+    </div>
+    </div>
+</div>
+<div id="block_myaccount_infos" class="col-md-2 links wrapper">
+  <h3 class="myaccount-title hidden-sm-down">
+    <a class="text-uppercase" href="http://10.1.10.133:8080/br/a-minha-conta" rel="nofollow">
+      A sua conta
+    </a>
+  </h3>
+  <div class="title clearfix hidden-md-up" data-target="#footer_account_list" data-toggle="collapse">
+    <span class="h3">A sua conta</span>
+    <span class="float-xs-right">
+      <span class="navbar-toggler collapse-icons">
+        <i class="material-icons add"></i>
+        <i class="material-icons remove"></i>
+      </span>
+    </span>
+  </div>
+  <ul class="account-list collapse" id="footer_account_list">
+            <li>
+          <a href="http://10.1.10.133:8080/br/nota-de-encomenda" title="Créditos" rel="nofollow">
+            Créditos
+          </a>
+        </li>
+            <li>
+          <a href="http://10.1.10.133:8080/br/enderecos" title="Endereços" rel="nofollow">
+            Endereços
+          </a>
+        </li>
+            <li>
+          <a href="http://10.1.10.133:8080/br/identidade" title="Informação pessoal" rel="nofollow">
+            Informação pessoal
+          </a>
+        </li>
+            <li>
+          <a href="http://10.1.10.133:8080/br/historico-de-encomendas" title="Pedidos" rel="nofollow">
+            Pedidos
+          </a>
+        </li>
+        
+	</ul>
+</div>
+
+<div class="block-contact col-md-4 links wrapper">
+  <div class="hidden-sm-down">
+    <h4 class="text-uppercase block-contact-title">Informações da Loja</h4>
+      rsi<br />Brasil
+                          <br />
+        
+        Envie-nos um e-mail: <span>alexandre.xavier@rsinet.com.br</span>
+        </div>
+  <div class="hidden-md-up">
+    <div class="title">
+      <a class="h3" href="http://10.1.10.133:8080/br/lojas">Informações da Loja</a>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+    <div class="row">
+      
+        
+      
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-sm-center">
+          
+            <a class="_blank" href="http://www.prestashop.com" target="_blank">
+              © 2018 - Software de comércio eletrónico por PrestaShop™
+            </a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </footer>
+
+    </main>
+
+    
+        <script type="text/javascript" src="http://10.1.10.133:8080/themes/core.js"></script>
+  <script type="text/javascript" src="http://10.1.10.133:8080/themes/classic/assets/js/theme.js"></script>
+  <script type="text/javascript" src="http://10.1.10.133:8080/js/jquery/ui/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="http://10.1.10.133:8080/modules/ps_imageslider/js/responsiveslides.min.js"></script>
+  <script type="text/javascript" src="http://10.1.10.133:8080/modules/ps_imageslider/js/homeslider.js"></script>
+  <script type="text/javascript" src="http://10.1.10.133:8080/modules/ps_searchbar/ps_searchbar.js"></script>
+  <script type="text/javascript" src="http://10.1.10.133:8080/modules/ps_shoppingcart/ps_shoppingcart.js"></script>
+  <script type="text/javascript" src="http://10.1.10.133:8080/themes/classic/assets/js/custom.js"></script>
+
+
+    
+
+    
+      
+    
+  
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul></body></html>

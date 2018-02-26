@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CT02 - Alterar senha do usuario","Alterar senha","SUCCESS","2018-02-26T11:36:52.508-03:00","0.0","18.01"
+"CT01 - Cadastrar novo usuario","Cadastrar usuario","SUCCESS","2018-02-26T11:36:25.280-03:00","0.0","22.88"
+"CT03 - Colocar um Produto no Carrinho buscando via barra de busca","Colocar Produto no carrinho via barra de busca","SUCCESS","2018-02-26T11:37:10.943-03:00","0.0","15.39"
+"CT04 - Clicar em Todos os produtos, filtrar pela cor e adiciona-lo","Filtrar cor do produto","SUCCESS","2018-02-26T11:37:26.727-03:00","0.0","14.19"
+"CT06 - Clicar em Todos os produtos, filtrar pelo tamanho e composicao, e retirar o filtro Tamanho","Filtrar e retirar filtro","SUCCESS","2018-02-26T11:37:57.273-03:00","0.0","10.58"
+"CT05 - Clicar em Todos os produtos, filtrar pelo tamanho e estilo, e adiciona-lo","Filtrar tamanho e estilo do produto","SUCCESS","2018-02-26T11:37:41.342-03:00","0.0","15.35"

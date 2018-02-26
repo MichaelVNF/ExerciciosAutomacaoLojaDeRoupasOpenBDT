@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="016cd165291f0a7b1ea4040baa74a8e6a1bdf40b740732b924871db71f77ca4d.html">Ct02 - Alterar Senha Do Usuario</a>
+                > <a
+                    href="2ca6b3f1528512c18a0090ba5cfe32a84980c88d6d2b458a90a12a56823141ed.html">Alterar senha </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-02-2018 11:36</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Ct02 - Alterar Senha Do Usuario</span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="d8d61782789f1acb7117986420fadafa1f8ee937ef61099f6432ea7f3c7dcc10.html">Alterasenha
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Alterar Senha
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Abrir pagina: &lt;url&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="986ff659f02d8c88792e38017b541f8b9e5e12e3089102d95c8488df7171439f.png" title="Given estou na pagina inicial do site &quot;&lt;url&gt;&quot;" width="960"/>
+                <img src="986ff659f02d8c88792e38017b541f8b9e5e12e3089102d95c8488df7171439f.png" title="Abrir pagina: http://10.1.10.133:8080" width="960"/>
+                <img src="9a43f42acbc42501d0cfd407ded5e007ba8ef354a77654cf8d8990d410c1b607.png" title="When clico no link 'Entrar'" width="960"/>
+                <img src="531501b85b1873fef5fb7e34c0b4cda2f7b1f1277dedd9153830f977017d4ec8.png" title="And preencho o campo 'E-mail' &quot;&lt;email&gt;&quot; &quot;&lt;modoOperacao&gt;&quot;" width="960"/>
+                <img src="3099e47b37fb49a48d7af4b262f530e0d1ad49afa5c9ecb7a58e5c006da874f3.png" title="And preencho o campo 'Senha' &quot;&lt;senha&gt;&quot;" width="960"/>
+                <img src="996910b0800de1ff6b927416f6eb3cbd84b23c4162b0d400f6c0e40039346b76.png" title="And clico no botao 'Entrar'" width="960"/>
+                <img src="8a647b0b89f61ec6d9a0814bbfb2d5543349bb70df5193ab6e6a2572aacf1460.png" title="And clico no botao 'Entrar'" width="960"/>
+                <img src="ee33160da2339ce2d06bd86e816e2287b509a9725ec3999d69da4985c5e2e973.png" title="And clico no 'link especifico' de opcoes da conta &quot;&lt;linkOpcoesConta&gt;&quot;" width="960"/>
+                <img src="1fe799a015df08fb50ec881a2b4bb5201d8f6cfc0d877f9d53e01826e0e02f71.png" title="And preencho o campo 'Senha' &quot;&lt;senha&gt;&quot;" width="960"/>
+                <img src="6ce9ddaba0291b45a1a1ac792d078fe23d9962f983a8d5a10623322ac330c4d7.png" title="And clico no botao 'Mostrar'" width="960"/>
+                <img src="5edd3d1760511d19b6598699083b84224428b910e15ee2466e706e485c43ad37.png" title="And clico no botao 'Mostrar'" width="960"/>
+                <img src="4b664d2bb80b6297ba2ca0d167be37954c80e8cf4181c70bd50090aab5e4eb51.png" title="And preencho o campo 'Nova Senha' &quot;&lt;senha&gt;&quot;" width="960"/>
+                <img src="e5ad5232ddb8c51669cada5097499d6af7187ecbc0b61a479a7df344299646de.png" title="And clico no botao 'Mostrar'" width="960"/>
+                <img src="3a9ddb6c2d079fd83673450b2ef8c4752e81cf4822801e26189039f49f5b6f53.png" title="And clico no botao 'Salvar'" width="960"/>
+                <img src="3a9ddb6c2d079fd83673450b2ef8c4752e81cf4822801e26189039f49f5b6f53.png" title="Then verificar alteracao dos dados &quot;&lt;msg&gt;&quot;: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.3.0</span>
+</div>
+</body>
+</html>

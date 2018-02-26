@@ -211,8 +211,33 @@ public class StepBusiness {
 	
 	public void verificarRemocaoLinkFiltrosAtivos(int qtdFiltrosAdd) {
 		qtdFiltrosAdd--;
+		viewElement.waitForElementIsPresent(10, page.getListaLinksFiltrosAtivos().get(0));
 		assertTrue(page.getListaLinksFiltrosAtivos().size() == qtdFiltrosAdd);
 	}
 	
+	//CT07 - Clicar em Todos os produtos, filtrar pelo preco, e retirar o todos os filtros
+	public void clicarLinkPreco(String preco) {
+		viewElement.waitForElementIsPresent(10, page.getUlPrecoFiltro().findElement(By.partialLinkText(preco)));
+		viewElement.click(page.getUlPrecoFiltro().findElement(By.partialLinkText(preco)));
+	}
+	
+	public void clicarBtnLimparTudo() {
+		viewElement.waitForElementIsPresent(10, page.getBtnLimparTudo());
+		viewElement.click(page.getBtnLimparTudo());
+	}
+	
+	public void verificarRemocaoTodosOsFiltros() {
+		assertTrue(!page.containsText("Filtros ativos"));
+	}
 
+	//CT08 - Clicar em Todos os produtos, ordenar do mais barato ao mais caro, adicionar o mais barato
+	public void clicarLinkOrdenarPor(String criterio) {
+		viewElement.click(page.getBtnOrdenarPor());
+		viewElement.waitForElementIsPresent(10, page.getLinksOrdenarPor().findElement(By.linkText(criterio)));
+		viewElement.click(page.getLinksOrdenarPor().findElement(By.linkText(criterio)));
+		
+		page.waitFor(10).seconds();
+	}
+	
+	
 }
