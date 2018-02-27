@@ -116,6 +116,7 @@ public class StepBusiness {
 	public void verificarAlteracaoDados(String msg) {
 		viewElement.waitForElementIsPresent(10, page.getLblMsgAlteracaoDados());
 		assertTrue(page.getLblMsgAlteracaoDados().getText().contains(msg));
+	
 	}
 	
 	//CT03 - Colocar um Produto no Carrinho buscando via barra de busca
@@ -258,4 +259,29 @@ public class StepBusiness {
 	public void clicarBtnFinalizarPedido() {
 		viewElement.click(page.getBtnFinalizarPedido());
 	}
+	
+	//CT10 - Entrar na secao Fale Conosco e enviar mensagem 
+	public void clicarLinkFaleConosco() {
+		viewElement.waitForElementIsPresent(10, page.getLinkFaleConosco());
+		viewElement.click(page.getLinkFaleConosco());
+	}
+	
+	public void selecionarDdlAssunto(String assunto) {
+		viewElement.sendText(page.getDdlAssunto(), assunto);
+	}
+	
+	public void preencherCampoMsg(String msg) {
+		viewElement.sendText(page.getTxtMensagem(), msg);
+	}
+	
+	public void clicarBtnEnviar() {
+		viewElement.click(page.getBtnEnviar());
+	}
+	
+	public void verificarEnvioMensagem() {
+		viewElement.waitForElementIsPresent(10, page.getLblMsgMsgEnviada());
+		assertTrue(page.getLblMsgMsgEnviada().isDisplayed());
+	}
+	
+
 }

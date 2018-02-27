@@ -26,7 +26,7 @@ public class PageObjectClass extends PageObject{
 	@FindBy(name = "lastname")
 	private WebElement txtSobreNome;
 	
-	@FindBy(name = "email")
+	@FindBy(xpath = "//label[contains(text(),'E-mail')]/following::input[1]")
 	private WebElement txtEmail;
 	
 	@FindBy(name = "password")
@@ -132,7 +132,21 @@ public class PageObjectClass extends PageObject{
 	@FindBy(xpath = "//a[text()='Finalizar pedido']")
 	private WebElement btnFinalizarPedido;
 	
+	//CT10 - Entrar na secao Fale Conosco e enviar mensagem 
+	@FindBy(xpath = "//a[text()='Fale conosco']")
+	private WebElement linkFaleConosco;
 	
+	@FindBy(name = "id_contact")
+	private WebElement ddlAssunto;
+
+	@FindBy(name = "message")
+	private WebElement txtMensagem;
+	
+	@FindBy(xpath = "//input[@value='Enviar']")
+	private WebElement btnEnviar;
+	
+	@FindBy(xpath = "//div[@class='col-xs-12 alert alert-success']")
+	private WebElement lblMsgMsgEnviada;
 	
 	public WebElement getLinkEntrar() {
 		return linkEntrar;
@@ -284,6 +298,26 @@ public class PageObjectClass extends PageObject{
 
 	public WebElement getBtnFinalizarPedido() {
 		return btnFinalizarPedido;
+	}
+
+	public WebElement getLinkFaleConosco() {
+		return linkFaleConosco;
+	}
+
+	public WebElement getDdlAssunto() {
+		return ddlAssunto;
+	}
+
+	public WebElement getTxtMensagem() {
+		return txtMensagem;
+	}
+
+	public WebElement getBtnEnviar() {
+		return btnEnviar;
+	}
+
+	public WebElement getLblMsgMsgEnviada() {
+		return lblMsgMsgEnviada;
 	}
 
 	

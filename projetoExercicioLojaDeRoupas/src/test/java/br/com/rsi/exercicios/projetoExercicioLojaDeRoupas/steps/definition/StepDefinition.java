@@ -229,4 +229,30 @@ public class StepDefinition {
 	public void clico_no_botao_Finalizar_Pedido() throws Throwable {
 	    stepB.clicarBtnFinalizarPedido();
 	}
+	
+	//CT10 - Entrar na secao Fale Conosco e enviar mensagem 
+	@When("^clico no link 'Fale Conosco'$")
+	public void clico_no_link_Fale_Conosco() throws Throwable {
+	    stepB.clicarLinkFaleConosco();
+	}
+
+	@When("^seleciono a ddl 'Assunto' \"([^\"]*)\"$")
+	public void seleciono_a_ddl_Assunto(String assunto) throws Throwable {
+	    stepB.selecionarDdlAssunto(assunto);
+	}
+
+	@When("^preencho o campo 'Mensagem' \"([^\"]*)\"$")
+	public void preencho_o_campo_Mensagem(String msg) throws Throwable {
+	    stepB.preencherCampoMsg(msg);
+	}
+
+	@When("^clico no botao 'Enviar'$")
+	public void clico_no_botao_Enviar() throws Throwable {
+	    stepB.clicarBtnEnviar();
+	}
+
+	@Then("^verifico o envio da mensagem$")
+	public void verifico_o_envio_da_mensagem() throws Throwable {
+	    stepB.verificarEnvioMensagem();
+	}
 }
